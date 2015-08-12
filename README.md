@@ -42,12 +42,6 @@ Move into the extracted folder
 ``` bash
 $ cd IMAGE_NAME
 ```
-
-Move into the extracted folder 
-``` bash
-$ cd IMAGE_NAME
-```
-
 Prepare your phone
 
 Push the supersu.zip to your sdcard ( you can use adb shell to find the right path on your phone). Or sideload it later using a custom recovery. Reboot into bootloader.

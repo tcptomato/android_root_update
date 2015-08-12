@@ -29,7 +29,7 @@ For Nexus devices get the factory images [here](https://developers.google.com/an
 1. Check hashsum of the image to verify its integrity
 
 ``` bash
-$ sha1sum 
+$ sha1sum IMAGE_NAME.tgz
 ```
 
 2. Extract the image from the .tgz
@@ -50,7 +50,7 @@ $ cd IMAGE_NAME
 
 4. Prepare your phone
 
-Push the supersu.zip to your sdcard ( you can use adb shell to find the right path on your phone). Reboot into bootloader.
+Push the supersu.zip to your sdcard ( you can use adb shell to find the right path on your phone). Or sideload it later using a custom recovery. Reboot into bootloader.
 
 ``` bash
 adb push supersu.zip /storage/sdcard0 

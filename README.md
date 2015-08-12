@@ -73,5 +73,5 @@ Flash the stuff we're interested in
 fastboot flash boot boot.img
 fastboot flash system system.img
 ```
-Boot into recovery and reinstall root
+Boot into recovery and reinstall root.
 Reboot into new android.
